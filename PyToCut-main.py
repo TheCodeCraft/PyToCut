@@ -23,7 +23,7 @@ while vid.isOpened():
         cv2.imwrite(directory + '/frame' + str(i2) + '.png', frame)
         i2 += 1
     i += 1
-  print("File: " + str(i) + " Frame: " + str(i2))
-#close
+    print("File: " + str(i) + " Frame: " + str(i2))
+#close    
 vid.release()
 cv2.destroyAllWindows()
